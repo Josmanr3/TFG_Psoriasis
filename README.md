@@ -19,12 +19,7 @@ El modelo implementado utiliza una arquitectura de Red Neuronal Convolucional (C
 - **Alta Precisión:** Se alcanzó una **precisión del 87.50%** en el conjunto de prueba final no visto, validando la robustez del enfoque.
 - **Metodología Rigurosa:** El rendimiento del modelo se validó exhaustivamente mediante técnicas de **Validación Cruzada Estratificada K-Fold** y **Leave-One-Out Cross-Validation (LOOCV)**.
 - **Aumento de Datos:** Se implementó una estrategia avanzada de aumento de datos para balancear el dataset y mejorar la capacidad de generalización del modelo.
----
-
-% ## 📂 Estructura del Repositorio
-
----
-
+  
 ## 🛠️ Metodología en Resumen
 
 1.  **Conjunto de Datos:** Se utilizó un dataset de **798 imágenes** recopiladas de fuentes dermatológicas de referencia como DermNet y Roboflow Universe.
@@ -40,7 +35,6 @@ El modelo implementado utiliza una arquitectura de Red Neuronal Convolucional (C
     - **Validación Cruzada K-Fold (K=5):** Se utilizó para obtener una estimación robusta del rendimiento del modelo, alcanzando una precisión promedio del **91.59%**.
     - **Validación Cruzada Leave One Out:** Se utilizó para obtener una estimación más robusta del rendimiento del modelo, alcanzando una precisión del **89.10%**.
     - **Evaluación Final:** El modelo final, entrenado con el 85% de los datos, se evaluó en el 15% de prueba, obteniendo una precisión del **86.67%**.
-
 
 
 ## 🚀 Cómo Empezar
